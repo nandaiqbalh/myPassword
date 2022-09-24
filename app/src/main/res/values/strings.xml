@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">myPassword</string>
-</resources>
+    <string name="text_new_app_key">Create New App Key</string>
+    <string name="hint_field_new_app_key">New App Key</string>
+    <string name="hint_field_confirmed_app_key">Confirm App Key</string>
+    <string name="text_confirm_app_key">Confirm</string>
+    <string name="text_protect_your_app">Protect your app using App Key</string>
+    <string name="text_enter_your_app_key">Enter your App Key</string>
+    <string name="text_enter_your_correct_app_key_to_continue">Enter your correct App Key to continue</string>
+    <string name="hint_field_app_key">App Key</string>
+    <string name="error_empty_app_key">App Key is Empty</string>
+    <string name="error_empty_confirmed_app_key">Confirmed App Key is Empty</string>
+    <string name="error_app_key_not_match">App Key does not match !</string>
+    <string name="error_text_app_key_not_correct">App key is not correct !</string>
+    <string name="text_click_me">Click Me !</string>
+    <string name="text_change_app_key">Change App Key</string>
+    <string name="text_menu_delete_item">Delete</string>
+    <string name="text_menu_edit_item">Edit</string>
+    <string name="text_menu_change_app_key">Change App Key</string></resources>
