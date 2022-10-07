@@ -18,7 +18,7 @@ class CreateAppKeyBottomSheet : BottomSheetDialogFragment() {
     private var listener: OnAppKeyChangedListener? = null
 
     private val viewModel: CreateAppKeyViewModel by viewModelFactory {
-        CreateAppKeyViewModel(ServiceLocator.providerLocalRepository(requireContext()))
+        CreateAppKeyViewModel(ServiceLocator.provideLocalRepository(requireContext()))
     }
 
     fun setListener(listener: OnAppKeyChangedListener){
@@ -82,17 +82,6 @@ class CreateAppKeyBottomSheet : BottomSheetDialogFragment() {
         return isFormValid
     }
 
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        if(context is OnAppKeyChangedListener){
-            listener = context
-        }
-    }
-
-    override fun onDetach() {
-        super.onDetach()
-        listener = null
-    }
 }
 
 interface OnAppKeyChangedListener{

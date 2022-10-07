@@ -21,7 +21,7 @@ class EnterAppKeyBottomSheet : BottomSheetDialogFragment() {
     }
 
     private val viewModel: EnterAppKeyViewModel by viewModelFactory {
-        EnterAppKeyViewModel(ServiceLocator.providerLocalRepository(requireContext()))
+        EnterAppKeyViewModel(ServiceLocator.provideLocalRepository(requireContext()))
     }
 
     override fun onCreateView(

@@ -23,7 +23,7 @@ class PasswordListActivity : AppCompatActivity() {
     }
 
     private val viewModel: PasswordListViewModel by viewModelFactory {
-        PasswordListViewModel(ServiceLocator.providerLocalRepository(this))
+        PasswordListViewModel(ServiceLocator.provideLocalRepository(this))
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
