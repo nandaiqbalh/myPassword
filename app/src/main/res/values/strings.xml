@@ -16,4 +16,19 @@
     <string name="text_change_app_key">Change App Key</string>
     <string name="text_menu_delete_item">Delete</string>
     <string name="text_menu_edit_item">Edit</string>
-    <string name="text_menu_change_app_key">Change App Key</string></resources>
+    <string name="text_menu_change_app_key">Change App Key</string>
+    <string name="text_error_password_list_empty">Your password list is empty</string>
+
+    <string name="text_hint_app_name">App Name</string>
+    <string name="text_hint_email">Email</string>
+    <string name="text_hint_username">Username</string>
+    <string name="hint_field_password">Account Password</string>
+    <string name="hint_field_desc">Additional Notes</string>
+    <string name="text_toolbar_edit">Edit Password</string>
+    <string name="text_toolbar_insert">Create New Password</string>
+    <string name="text_error_empty_app_name">App Name cannot be Empty</string>
+    <string name="text_error_empty_email">Email cannot be empty</string>
+    <string name="text_error_empty_username">Username cannot be empty</string>
+    <string name="text_error_empty_password">Password cannot be empty</string>
+    <string name="text_save">Save</string>
+</resources>
